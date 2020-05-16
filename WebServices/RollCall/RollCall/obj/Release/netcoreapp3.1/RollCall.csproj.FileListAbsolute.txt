@@ -1,0 +1,306 @@
+C:\Users\f5035929\OneDrive - FRG\Desktop\New folder (4)\School Project\RollCall\RollCall\bin\Release\netcoreapp3.1\appsettings.Development.json
+C:\Users\f5035929\OneDrive - FRG\Desktop\New folder (4)\School Project\RollCall\RollCall\bin\Release\netcoreapp3.1\appsettings.json
+C:\Users\f5035929\OneDrive - FRG\Desktop\New folder (4)\School Project\RollCall\RollCall\bin\Release\netcoreapp3.1\Properties\launchSettings.json
+C:\Users\f5035929\OneDrive - FRG\Desktop\New folder (4)\School Project\RollCall\RollCall\bin\Release\netcoreapp3.1\RollCall.exe
+C:\Users\f5035929\OneDrive - FRG\Desktop\New folder (4)\School Project\RollCall\RollCall\bin\Release\netcoreapp3.1\RollCall.deps.json
+C:\Users\f5035929\OneDrive - FRG\Desktop\New folder (4)\School Project\RollCall\RollCall\bin\Release\netcoreapp3.1\RollCall.runtimeconfig.json
+C:\Users\f5035929\OneDrive - FRG\Desktop\New folder (4)\School Project\RollCall\RollCall\bin\Release\netcoreapp3.1\RollCall.runtimeconfig.dev.json
+C:\Users\f5035929\OneDrive - FRG\Desktop\New folder (4)\School Project\RollCall\RollCall\bin\Release\netcoreapp3.1\RollCall.dll
+C:\Users\f5035929\OneDrive - FRG\Desktop\New folder (4)\School Project\RollCall\RollCall\bin\Release\netcoreapp3.1\RollCall.pdb
+C:\Users\f5035929\OneDrive - FRG\Desktop\New folder (4)\School Project\RollCall\RollCall\bin\Release\netcoreapp3.1\RollCall.Views.dll
+C:\Users\f5035929\OneDrive - FRG\Desktop\New folder (4)\School Project\RollCall\RollCall\bin\Release\netcoreapp3.1\RollCall.Views.pdb
+C:\Users\f5035929\OneDrive - FRG\Desktop\New folder (4)\School Project\RollCall\RollCall\bin\Release\netcoreapp3.1\AutoMapper.dll
+C:\Users\f5035929\OneDrive - FRG\Desktop\New folder (4)\School Project\RollCall\RollCall\bin\Release\netcoreapp3.1\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:\Users\f5035929\OneDrive - FRG\Desktop\New folder (4)\School Project\RollCall\RollCall\bin\Release\netcoreapp3.1\System.Net.Http.Formatting.dll
+C:\Users\f5035929\OneDrive - FRG\Desktop\New folder (4)\School Project\RollCall\RollCall\bin\Release\netcoreapp3.1\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\f5035929\OneDrive - FRG\Desktop\New folder (4)\School Project\RollCall\RollCall\bin\Release\netcoreapp3.1\Microsoft.AspNetCore.Razor.Language.dll
+C:\Users\f5035929\OneDrive - FRG\Desktop\New folder (4)\School Project\RollCall\RollCall\bin\Release\netcoreapp3.1\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\f5035929\OneDrive - FRG\Desktop\New folder (4)\School Project\RollCall\RollCall\bin\Release\netcoreapp3.1\Microsoft.Bcl.HashCode.dll
+C:\Users\f5035929\OneDrive - FRG\Desktop\New folder (4)\School Project\RollCall\RollCall\bin\Release\netcoreapp3.1\Microsoft.CodeAnalysis.dll
+C:\Users\f5035929\OneDrive - FRG\Desktop\New folder (4)\School Project\RollCall\RollCall\bin\Release\netcoreapp3.1\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\f5035929\OneDrive - FRG\Desktop\New folder (4)\School Project\RollCall\RollCall\bin\Release\netcoreapp3.1\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+C:\Users\f5035929\OneDrive - FRG\Desktop\New folder (4)\School Project\RollCall\RollCall\bin\Release\netcoreapp3.1\Microsoft.CodeAnalysis.Razor.dll
+C:\Users\f5035929\OneDrive - FRG\Desktop\New folder (4)\School Project\RollCall\RollCall\bin\Release\netcoreapp3.1\Microsoft.CodeAnalysis.Workspaces.dll
+C:\Users\f5035929\OneDrive - FRG\Desktop\New folder (4)\School Project\RollCall\RollCall\bin\Release\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\f5035929\OneDrive - FRG\Desktop\New folder (4)\School Project\RollCall\RollCall\bin\Release\netcoreapp3.1\Microsoft.EntityFrameworkCore.dll
+C:\Users\f5035929\OneDrive - FRG\Desktop\New folder (4)\School Project\RollCall\RollCall\bin\Release\netcoreapp3.1\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\f5035929\OneDrive - FRG\Desktop\New folder (4)\School Project\RollCall\RollCall\bin\Release\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\f5035929\OneDrive - FRG\Desktop\New folder (4)\School Project\RollCall\RollCall\bin\Release\netcoreapp3.1\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\f5035929\OneDrive - FRG\Desktop\New folder (4)\School Project\RollCall\RollCall\bin\Release\netcoreapp3.1\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\f5035929\OneDrive - FRG\Desktop\New folder (4)\School Project\RollCall\RollCall\bin\Release\netcoreapp3.1\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\f5035929\OneDrive - FRG\Desktop\New folder (4)\School Project\RollCall\RollCall\bin\Release\netcoreapp3.1\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\f5035929\OneDrive - FRG\Desktop\New folder (4)\School Project\RollCall\RollCall\bin\Release\netcoreapp3.1\Microsoft.Extensions.Configuration.dll
+C:\Users\f5035929\OneDrive - FRG\Desktop\New folder (4)\School Project\RollCall\RollCall\bin\Release\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\f5035929\OneDrive - FRG\Desktop\New folder (4)\School Project\RollCall\RollCall\bin\Release\netcoreapp3.1\Microsoft.Extensions.Configuration.Binder.dll
+C:\Users\f5035929\OneDrive - FRG\Desktop\New folder (4)\School Project\RollCall\RollCall\bin\Release\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\f5035929\OneDrive - FRG\Desktop\New folder (4)\School Project\RollCall\RollCall\bin\Release\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\f5035929\OneDrive - FRG\Desktop\New folder (4)\School Project\RollCall\RollCall\bin\Release\netcoreapp3.1\Microsoft.Extensions.Logging.dll
+C:\Users\f5035929\OneDrive - FRG\Desktop\New folder (4)\School Project\RollCall\RollCall\bin\Release\netcoreapp3.1\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\f5035929\OneDrive - FRG\Desktop\New folder (4)\School Project\RollCall\RollCall\bin\Release\netcoreapp3.1\Microsoft.Extensions.Options.dll
+C:\Users\f5035929\OneDrive - FRG\Desktop\New folder (4)\School Project\RollCall\RollCall\bin\Release\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
+C:\Users\f5035929\OneDrive - FRG\Desktop\New folder (4)\School Project\RollCall\RollCall\bin\Release\netcoreapp3.1\Microsoft.Identity.Client.dll
+C:\Users\f5035929\OneDrive - FRG\Desktop\New folder (4)\School Project\RollCall\RollCall\bin\Release\netcoreapp3.1\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\f5035929\OneDrive - FRG\Desktop\New folder (4)\School Project\RollCall\RollCall\bin\Release\netcoreapp3.1\Microsoft.IdentityModel.Logging.dll
+C:\Users\f5035929\OneDrive - FRG\Desktop\New folder (4)\School Project\RollCall\RollCall\bin\Release\netcoreapp3.1\Microsoft.IdentityModel.Protocols.dll
+C:\Users\f5035929\OneDrive - FRG\Desktop\New folder (4)\School Project\RollCall\RollCall\bin\Release\netcoreapp3.1\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\f5035929\OneDrive - FRG\Desktop\New folder (4)\School Project\RollCall\RollCall\bin\Release\netcoreapp3.1\Microsoft.IdentityModel.Tokens.dll
+C:\Users\f5035929\OneDrive - FRG\Desktop\New folder (4)\School Project\RollCall\RollCall\bin\Release\netcoreapp3.1\Microsoft.SqlServer.Types.dll
+C:\Users\f5035929\OneDrive - FRG\Desktop\New folder (4)\School Project\RollCall\RollCall\bin\Release\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.dll
+C:\Users\f5035929\OneDrive - FRG\Desktop\New folder (4)\School Project\RollCall\RollCall\bin\Release\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Contracts.dll
+C:\Users\f5035929\OneDrive - FRG\Desktop\New folder (4)\School Project\RollCall\RollCall\bin\Release\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Core.dll
+C:\Users\f5035929\OneDrive - FRG\Desktop\New folder (4)\School Project\RollCall\RollCall\bin\Release\netcoreapp3.1\dotnet-aspnet-codegenerator-design.dll
+C:\Users\f5035929\OneDrive - FRG\Desktop\New folder (4)\School Project\RollCall\RollCall\bin\Release\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.dll
+C:\Users\f5035929\OneDrive - FRG\Desktop\New folder (4)\School Project\RollCall\RollCall\bin\Release\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll
+C:\Users\f5035929\OneDrive - FRG\Desktop\New folder (4)\School Project\RollCall\RollCall\bin\Release\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll
+C:\Users\f5035929\OneDrive - FRG\Desktop\New folder (4)\School Project\RollCall\RollCall\bin\Release\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
+C:\Users\f5035929\OneDrive - FRG\Desktop\New folder (4)\School Project\RollCall\RollCall\bin\Release\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Users\f5035929\OneDrive - FRG\Desktop\New folder (4)\School Project\RollCall\RollCall\bin\Release\netcoreapp3.1\Newtonsoft.Json.Bson.dll
+C:\Users\f5035929\OneDrive - FRG\Desktop\New folder (4)\School Project\RollCall\RollCall\bin\Release\netcoreapp3.1\NuGet.Frameworks.dll
+C:\Users\f5035929\OneDrive - FRG\Desktop\New folder (4)\School Project\RollCall\RollCall\bin\Release\netcoreapp3.1\System.Composition.AttributedModel.dll
+C:\Users\f5035929\OneDrive - FRG\Desktop\New folder (4)\School Project\RollCall\RollCall\bin\Release\netcoreapp3.1\System.Composition.Convention.dll
+C:\Users\f5035929\OneDrive - FRG\Desktop\New folder (4)\School Project\RollCall\RollCall\bin\Release\netcoreapp3.1\System.Composition.Hosting.dll
+C:\Users\f5035929\OneDrive - FRG\Desktop\New folder (4)\School Project\RollCall\RollCall\bin\Release\netcoreapp3.1\System.Composition.Runtime.dll
+C:\Users\f5035929\OneDrive - FRG\Desktop\New folder (4)\School Project\RollCall\RollCall\bin\Release\netcoreapp3.1\System.Composition.TypedParts.dll
+C:\Users\f5035929\OneDrive - FRG\Desktop\New folder (4)\School Project\RollCall\RollCall\bin\Release\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
+C:\Users\f5035929\OneDrive - FRG\Desktop\New folder (4)\School Project\RollCall\RollCall\bin\Release\netcoreapp3.1\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\f5035929\OneDrive - FRG\Desktop\New folder (4)\School Project\RollCall\RollCall\bin\Release\netcoreapp3.1\System.Runtime.Caching.dll
+C:\Users\f5035929\OneDrive - FRG\Desktop\New folder (4)\School Project\RollCall\RollCall\bin\Release\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
+C:\Users\f5035929\OneDrive - FRG\Desktop\New folder (4)\School Project\RollCall\RollCall\bin\Release\netcoreapp3.1\cs\Microsoft.CodeAnalysis.resources.dll
+C:\Users\f5035929\OneDrive - FRG\Desktop\New folder (4)\School Project\RollCall\RollCall\bin\Release\netcoreapp3.1\de\Microsoft.CodeAnalysis.resources.dll
+C:\Users\f5035929\OneDrive - FRG\Desktop\New folder (4)\School Project\RollCall\RollCall\bin\Release\netcoreapp3.1\es\Microsoft.CodeAnalysis.resources.dll
+C:\Users\f5035929\OneDrive - FRG\Desktop\New folder (4)\School Project\RollCall\RollCall\bin\Release\netcoreapp3.1\fr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\f5035929\OneDrive - FRG\Desktop\New folder (4)\School Project\RollCall\RollCall\bin\Release\netcoreapp3.1\it\Microsoft.CodeAnalysis.resources.dll
+C:\Users\f5035929\OneDrive - FRG\Desktop\New folder (4)\School Project\RollCall\RollCall\bin\Release\netcoreapp3.1\ja\Microsoft.CodeAnalysis.resources.dll
+C:\Users\f5035929\OneDrive - FRG\Desktop\New folder (4)\School Project\RollCall\RollCall\bin\Release\netcoreapp3.1\ko\Microsoft.CodeAnalysis.resources.dll
+C:\Users\f5035929\OneDrive - FRG\Desktop\New folder (4)\School Project\RollCall\RollCall\bin\Release\netcoreapp3.1\pl\Microsoft.CodeAnalysis.resources.dll
+C:\Users\f5035929\OneDrive - FRG\Desktop\New folder (4)\School Project\RollCall\RollCall\bin\Release\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.resources.dll
+C:\Users\f5035929\OneDrive - FRG\Desktop\New folder (4)\School Project\RollCall\RollCall\bin\Release\netcoreapp3.1\ru\Microsoft.CodeAnalysis.resources.dll
+C:\Users\f5035929\OneDrive - FRG\Desktop\New folder (4)\School Project\RollCall\RollCall\bin\Release\netcoreapp3.1\tr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\f5035929\OneDrive - FRG\Desktop\New folder (4)\School Project\RollCall\RollCall\bin\Release\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+C:\Users\f5035929\OneDrive - FRG\Desktop\New folder (4)\School Project\RollCall\RollCall\bin\Release\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+C:\Users\f5035929\OneDrive - FRG\Desktop\New folder (4)\School Project\RollCall\RollCall\bin\Release\netcoreapp3.1\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\f5035929\OneDrive - FRG\Desktop\New folder (4)\School Project\RollCall\RollCall\bin\Release\netcoreapp3.1\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\f5035929\OneDrive - FRG\Desktop\New folder (4)\School Project\RollCall\RollCall\bin\Release\netcoreapp3.1\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\f5035929\OneDrive - FRG\Desktop\New folder (4)\School Project\RollCall\RollCall\bin\Release\netcoreapp3.1\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\f5035929\OneDrive - FRG\Desktop\New folder (4)\School Project\RollCall\RollCall\bin\Release\netcoreapp3.1\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\f5035929\OneDrive - FRG\Desktop\New folder (4)\School Project\RollCall\RollCall\bin\Release\netcoreapp3.1\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\f5035929\OneDrive - FRG\Desktop\New folder (4)\School Project\RollCall\RollCall\bin\Release\netcoreapp3.1\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\f5035929\OneDrive - FRG\Desktop\New folder (4)\School Project\RollCall\RollCall\bin\Release\netcoreapp3.1\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\f5035929\OneDrive - FRG\Desktop\New folder (4)\School Project\RollCall\RollCall\bin\Release\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\f5035929\OneDrive - FRG\Desktop\New folder (4)\School Project\RollCall\RollCall\bin\Release\netcoreapp3.1\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\f5035929\OneDrive - FRG\Desktop\New folder (4)\School Project\RollCall\RollCall\bin\Release\netcoreapp3.1\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\f5035929\OneDrive - FRG\Desktop\New folder (4)\School Project\RollCall\RollCall\bin\Release\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\f5035929\OneDrive - FRG\Desktop\New folder (4)\School Project\RollCall\RollCall\bin\Release\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\f5035929\OneDrive - FRG\Desktop\New folder (4)\School Project\RollCall\RollCall\bin\Release\netcoreapp3.1\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\f5035929\OneDrive - FRG\Desktop\New folder (4)\School Project\RollCall\RollCall\bin\Release\netcoreapp3.1\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\f5035929\OneDrive - FRG\Desktop\New folder (4)\School Project\RollCall\RollCall\bin\Release\netcoreapp3.1\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\f5035929\OneDrive - FRG\Desktop\New folder (4)\School Project\RollCall\RollCall\bin\Release\netcoreapp3.1\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\f5035929\OneDrive - FRG\Desktop\New folder (4)\School Project\RollCall\RollCall\bin\Release\netcoreapp3.1\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\f5035929\OneDrive - FRG\Desktop\New folder (4)\School Project\RollCall\RollCall\bin\Release\netcoreapp3.1\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\f5035929\OneDrive - FRG\Desktop\New folder (4)\School Project\RollCall\RollCall\bin\Release\netcoreapp3.1\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\f5035929\OneDrive - FRG\Desktop\New folder (4)\School Project\RollCall\RollCall\bin\Release\netcoreapp3.1\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\f5035929\OneDrive - FRG\Desktop\New folder (4)\School Project\RollCall\RollCall\bin\Release\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\f5035929\OneDrive - FRG\Desktop\New folder (4)\School Project\RollCall\RollCall\bin\Release\netcoreapp3.1\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\f5035929\OneDrive - FRG\Desktop\New folder (4)\School Project\RollCall\RollCall\bin\Release\netcoreapp3.1\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\f5035929\OneDrive - FRG\Desktop\New folder (4)\School Project\RollCall\RollCall\bin\Release\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\f5035929\OneDrive - FRG\Desktop\New folder (4)\School Project\RollCall\RollCall\bin\Release\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\f5035929\OneDrive - FRG\Desktop\New folder (4)\School Project\RollCall\RollCall\bin\Release\netcoreapp3.1\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\f5035929\OneDrive - FRG\Desktop\New folder (4)\School Project\RollCall\RollCall\bin\Release\netcoreapp3.1\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\f5035929\OneDrive - FRG\Desktop\New folder (4)\School Project\RollCall\RollCall\bin\Release\netcoreapp3.1\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\f5035929\OneDrive - FRG\Desktop\New folder (4)\School Project\RollCall\RollCall\bin\Release\netcoreapp3.1\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\f5035929\OneDrive - FRG\Desktop\New folder (4)\School Project\RollCall\RollCall\bin\Release\netcoreapp3.1\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\f5035929\OneDrive - FRG\Desktop\New folder (4)\School Project\RollCall\RollCall\bin\Release\netcoreapp3.1\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\f5035929\OneDrive - FRG\Desktop\New folder (4)\School Project\RollCall\RollCall\bin\Release\netcoreapp3.1\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\f5035929\OneDrive - FRG\Desktop\New folder (4)\School Project\RollCall\RollCall\bin\Release\netcoreapp3.1\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\f5035929\OneDrive - FRG\Desktop\New folder (4)\School Project\RollCall\RollCall\bin\Release\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\f5035929\OneDrive - FRG\Desktop\New folder (4)\School Project\RollCall\RollCall\bin\Release\netcoreapp3.1\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\f5035929\OneDrive - FRG\Desktop\New folder (4)\School Project\RollCall\RollCall\bin\Release\netcoreapp3.1\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\f5035929\OneDrive - FRG\Desktop\New folder (4)\School Project\RollCall\RollCall\bin\Release\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\f5035929\OneDrive - FRG\Desktop\New folder (4)\School Project\RollCall\RollCall\bin\Release\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\f5035929\OneDrive - FRG\Desktop\New folder (4)\School Project\RollCall\RollCall\bin\Release\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+C:\Users\f5035929\OneDrive - FRG\Desktop\New folder (4)\School Project\RollCall\RollCall\bin\Release\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+C:\Users\f5035929\OneDrive - FRG\Desktop\New folder (4)\School Project\RollCall\RollCall\bin\Release\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
+C:\Users\f5035929\OneDrive - FRG\Desktop\New folder (4)\School Project\RollCall\RollCall\bin\Release\netcoreapp3.1\runtimes\win-x64\native\sni.dll
+C:\Users\f5035929\OneDrive - FRG\Desktop\New folder (4)\School Project\RollCall\RollCall\bin\Release\netcoreapp3.1\runtimes\win-x86\native\sni.dll
+C:\Users\f5035929\OneDrive - FRG\Desktop\New folder (4)\School Project\RollCall\RollCall\bin\Release\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.0\System.Runtime.Caching.dll
+C:\Users\f5035929\OneDrive - FRG\Desktop\New folder (4)\School Project\RollCall\RollCall\bin\Release\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Runtime.Caching.dll
+C:\Users\f5035929\OneDrive - FRG\Desktop\New folder (4)\School Project\RollCall\RollCall\bin\Release\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\f5035929\OneDrive - FRG\Desktop\New folder (4)\School Project\RollCall\RollCall\obj\Release\netcoreapp3.1\RollCall.csprojAssemblyReference.cache
+C:\Users\f5035929\OneDrive - FRG\Desktop\New folder (4)\School Project\RollCall\RollCall\obj\Release\netcoreapp3.1\staticwebassets\RollCall.StaticWebAssets.Manifest.cache
+C:\Users\f5035929\OneDrive - FRG\Desktop\New folder (4)\School Project\RollCall\RollCall\obj\Release\netcoreapp3.1\staticwebassets\RollCall.StaticWebAssets.xml
+C:\Users\f5035929\OneDrive - FRG\Desktop\New folder (4)\School Project\RollCall\RollCall\obj\Release\netcoreapp3.1\RollCall.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\f5035929\OneDrive - FRG\Desktop\New folder (4)\School Project\RollCall\RollCall\obj\Release\netcoreapp3.1\RollCall.RazorAssemblyInfo.cache
+C:\Users\f5035929\OneDrive - FRG\Desktop\New folder (4)\School Project\RollCall\RollCall\obj\Release\netcoreapp3.1\RollCall.RazorAssemblyInfo.cs
+C:\Users\f5035929\OneDrive - FRG\Desktop\New folder (4)\School Project\RollCall\RollCall\obj\Release\netcoreapp3.1\RollCall.AssemblyInfoInputs.cache
+C:\Users\f5035929\OneDrive - FRG\Desktop\New folder (4)\School Project\RollCall\RollCall\obj\Release\netcoreapp3.1\RollCall.AssemblyInfo.cs
+C:\Users\f5035929\OneDrive - FRG\Desktop\New folder (4)\School Project\RollCall\RollCall\obj\Release\netcoreapp3.1\RollCall.TagHelpers.input.cache
+C:\Users\f5035929\OneDrive - FRG\Desktop\New folder (4)\School Project\RollCall\RollCall\obj\Release\netcoreapp3.1\RollCall.TagHelpers.output.cache
+C:\Users\f5035929\OneDrive - FRG\Desktop\New folder (4)\School Project\RollCall\RollCall\obj\Release\netcoreapp3.1\RollCall.RazorCoreGenerate.cache
+C:\Users\f5035929\OneDrive - FRG\Desktop\New folder (4)\School Project\RollCall\RollCall\obj\Release\netcoreapp3.1\Razor\Views\Home\Index.cshtml.g.cs
+C:\Users\f5035929\OneDrive - FRG\Desktop\New folder (4)\School Project\RollCall\RollCall\obj\Release\netcoreapp3.1\Razor\Views\Home\Privacy.cshtml.g.cs
+C:\Users\f5035929\OneDrive - FRG\Desktop\New folder (4)\School Project\RollCall\RollCall\obj\Release\netcoreapp3.1\Razor\Views\Shared\Error.cshtml.g.cs
+C:\Users\f5035929\OneDrive - FRG\Desktop\New folder (4)\School Project\RollCall\RollCall\obj\Release\netcoreapp3.1\Razor\Views\Shared\_Layout.cshtml.g.cs
+C:\Users\f5035929\OneDrive - FRG\Desktop\New folder (4)\School Project\RollCall\RollCall\obj\Release\netcoreapp3.1\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+C:\Users\f5035929\OneDrive - FRG\Desktop\New folder (4)\School Project\RollCall\RollCall\obj\Release\netcoreapp3.1\Razor\Views\_ViewImports.cshtml.g.cs
+C:\Users\f5035929\OneDrive - FRG\Desktop\New folder (4)\School Project\RollCall\RollCall\obj\Release\netcoreapp3.1\Razor\Views\_ViewStart.cshtml.g.cs
+C:\Users\f5035929\OneDrive - FRG\Desktop\New folder (4)\School Project\RollCall\RollCall\obj\Release\netcoreapp3.1\RollCall.RazorTargetAssemblyInfo.cache
+C:\Users\f5035929\OneDrive - FRG\Desktop\New folder (4)\School Project\RollCall\RollCall\obj\Release\netcoreapp3.1\RollCall.RazorTargetAssemblyInfo.cs
+C:\Users\f5035929\OneDrive - FRG\Desktop\New folder (4)\School Project\RollCall\RollCall\obj\Release\netcoreapp3.1\RollCall.Views.pdb
+C:\Users\f5035929\OneDrive - FRG\Desktop\New folder (4)\School Project\RollCall\RollCall\obj\Release\netcoreapp3.1\RollCall.csproj.CopyComplete
+C:\Users\f5035929\OneDrive - FRG\Desktop\New folder (4)\School Project\RollCall\RollCall\obj\Release\netcoreapp3.1\RollCall.dll
+C:\Users\f5035929\OneDrive - FRG\Desktop\New folder (4)\School Project\RollCall\RollCall\obj\Release\netcoreapp3.1\RollCall.pdb
+C:\SoftDev\rollcallapplication\RollCall\RollCall\bin\Release\netcoreapp3.1\appsettings.Development.json
+C:\SoftDev\rollcallapplication\RollCall\RollCall\bin\Release\netcoreapp3.1\Properties\launchSettings.json
+C:\SoftDev\rollcallapplication\RollCall\RollCall\bin\Release\netcoreapp3.1\appsettings.json
+C:\SoftDev\rollcallapplication\RollCall\RollCall\bin\Release\netcoreapp3.1\RollCall.exe
+C:\SoftDev\rollcallapplication\RollCall\RollCall\bin\Release\netcoreapp3.1\RollCall.deps.json
+C:\SoftDev\rollcallapplication\RollCall\RollCall\bin\Release\netcoreapp3.1\RollCall.runtimeconfig.json
+C:\SoftDev\rollcallapplication\RollCall\RollCall\bin\Release\netcoreapp3.1\RollCall.runtimeconfig.dev.json
+C:\SoftDev\rollcallapplication\RollCall\RollCall\bin\Release\netcoreapp3.1\RollCall.dll
+C:\SoftDev\rollcallapplication\RollCall\RollCall\bin\Release\netcoreapp3.1\RollCall.pdb
+C:\SoftDev\rollcallapplication\RollCall\RollCall\bin\Release\netcoreapp3.1\RollCall.Views.dll
+C:\SoftDev\rollcallapplication\RollCall\RollCall\bin\Release\netcoreapp3.1\RollCall.Views.pdb
+C:\SoftDev\rollcallapplication\RollCall\RollCall\bin\Release\netcoreapp3.1\AutoMapper.dll
+C:\SoftDev\rollcallapplication\RollCall\RollCall\bin\Release\netcoreapp3.1\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:\SoftDev\rollcallapplication\RollCall\RollCall\bin\Release\netcoreapp3.1\System.Net.Http.Formatting.dll
+C:\SoftDev\rollcallapplication\RollCall\RollCall\bin\Release\netcoreapp3.1\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\SoftDev\rollcallapplication\RollCall\RollCall\bin\Release\netcoreapp3.1\Microsoft.AspNetCore.Razor.Language.dll
+C:\SoftDev\rollcallapplication\RollCall\RollCall\bin\Release\netcoreapp3.1\Microsoft.Bcl.AsyncInterfaces.dll
+C:\SoftDev\rollcallapplication\RollCall\RollCall\bin\Release\netcoreapp3.1\Microsoft.Bcl.HashCode.dll
+C:\SoftDev\rollcallapplication\RollCall\RollCall\bin\Release\netcoreapp3.1\Microsoft.CodeAnalysis.dll
+C:\SoftDev\rollcallapplication\RollCall\RollCall\bin\Release\netcoreapp3.1\Microsoft.CodeAnalysis.CSharp.dll
+C:\SoftDev\rollcallapplication\RollCall\RollCall\bin\Release\netcoreapp3.1\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+C:\SoftDev\rollcallapplication\RollCall\RollCall\bin\Release\netcoreapp3.1\Microsoft.CodeAnalysis.Razor.dll
+C:\SoftDev\rollcallapplication\RollCall\RollCall\bin\Release\netcoreapp3.1\Microsoft.CodeAnalysis.Workspaces.dll
+C:\SoftDev\rollcallapplication\RollCall\RollCall\bin\Release\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\SoftDev\rollcallapplication\RollCall\RollCall\bin\Release\netcoreapp3.1\Microsoft.EntityFrameworkCore.dll
+C:\SoftDev\rollcallapplication\RollCall\RollCall\bin\Release\netcoreapp3.1\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\SoftDev\rollcallapplication\RollCall\RollCall\bin\Release\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll
+C:\SoftDev\rollcallapplication\RollCall\RollCall\bin\Release\netcoreapp3.1\Microsoft.EntityFrameworkCore.Relational.dll
+C:\SoftDev\rollcallapplication\RollCall\RollCall\bin\Release\netcoreapp3.1\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\SoftDev\rollcallapplication\RollCall\RollCall\bin\Release\netcoreapp3.1\Microsoft.Extensions.Caching.Abstractions.dll
+C:\SoftDev\rollcallapplication\RollCall\RollCall\bin\Release\netcoreapp3.1\Microsoft.Extensions.Caching.Memory.dll
+C:\SoftDev\rollcallapplication\RollCall\RollCall\bin\Release\netcoreapp3.1\Microsoft.Extensions.Configuration.dll
+C:\SoftDev\rollcallapplication\RollCall\RollCall\bin\Release\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\SoftDev\rollcallapplication\RollCall\RollCall\bin\Release\netcoreapp3.1\Microsoft.Extensions.Configuration.Binder.dll
+C:\SoftDev\rollcallapplication\RollCall\RollCall\bin\Release\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.dll
+C:\SoftDev\rollcallapplication\RollCall\RollCall\bin\Release\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\SoftDev\rollcallapplication\RollCall\RollCall\bin\Release\netcoreapp3.1\Microsoft.Extensions.Logging.dll
+C:\SoftDev\rollcallapplication\RollCall\RollCall\bin\Release\netcoreapp3.1\Microsoft.Extensions.Logging.Abstractions.dll
+C:\SoftDev\rollcallapplication\RollCall\RollCall\bin\Release\netcoreapp3.1\Microsoft.Extensions.Options.dll
+C:\SoftDev\rollcallapplication\RollCall\RollCall\bin\Release\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
+C:\SoftDev\rollcallapplication\RollCall\RollCall\bin\Release\netcoreapp3.1\Microsoft.Identity.Client.dll
+C:\SoftDev\rollcallapplication\RollCall\RollCall\bin\Release\netcoreapp3.1\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\SoftDev\rollcallapplication\RollCall\RollCall\bin\Release\netcoreapp3.1\Microsoft.IdentityModel.Logging.dll
+C:\SoftDev\rollcallapplication\RollCall\RollCall\bin\Release\netcoreapp3.1\Microsoft.IdentityModel.Protocols.dll
+C:\SoftDev\rollcallapplication\RollCall\RollCall\bin\Release\netcoreapp3.1\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\SoftDev\rollcallapplication\RollCall\RollCall\bin\Release\netcoreapp3.1\Microsoft.IdentityModel.Tokens.dll
+C:\SoftDev\rollcallapplication\RollCall\RollCall\bin\Release\netcoreapp3.1\Microsoft.SqlServer.Types.dll
+C:\SoftDev\rollcallapplication\RollCall\RollCall\bin\Release\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.dll
+C:\SoftDev\rollcallapplication\RollCall\RollCall\bin\Release\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Contracts.dll
+C:\SoftDev\rollcallapplication\RollCall\RollCall\bin\Release\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Core.dll
+C:\SoftDev\rollcallapplication\RollCall\RollCall\bin\Release\netcoreapp3.1\dotnet-aspnet-codegenerator-design.dll
+C:\SoftDev\rollcallapplication\RollCall\RollCall\bin\Release\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.dll
+C:\SoftDev\rollcallapplication\RollCall\RollCall\bin\Release\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll
+C:\SoftDev\rollcallapplication\RollCall\RollCall\bin\Release\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll
+C:\SoftDev\rollcallapplication\RollCall\RollCall\bin\Release\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
+C:\SoftDev\rollcallapplication\RollCall\RollCall\bin\Release\netcoreapp3.1\Newtonsoft.Json.dll
+C:\SoftDev\rollcallapplication\RollCall\RollCall\bin\Release\netcoreapp3.1\Newtonsoft.Json.Bson.dll
+C:\SoftDev\rollcallapplication\RollCall\RollCall\bin\Release\netcoreapp3.1\NuGet.Frameworks.dll
+C:\SoftDev\rollcallapplication\RollCall\RollCall\bin\Release\netcoreapp3.1\System.Composition.AttributedModel.dll
+C:\SoftDev\rollcallapplication\RollCall\RollCall\bin\Release\netcoreapp3.1\System.Composition.Convention.dll
+C:\SoftDev\rollcallapplication\RollCall\RollCall\bin\Release\netcoreapp3.1\System.Composition.Hosting.dll
+C:\SoftDev\rollcallapplication\RollCall\RollCall\bin\Release\netcoreapp3.1\System.Composition.Runtime.dll
+C:\SoftDev\rollcallapplication\RollCall\RollCall\bin\Release\netcoreapp3.1\System.Composition.TypedParts.dll
+C:\SoftDev\rollcallapplication\RollCall\RollCall\bin\Release\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
+C:\SoftDev\rollcallapplication\RollCall\RollCall\bin\Release\netcoreapp3.1\System.IdentityModel.Tokens.Jwt.dll
+C:\SoftDev\rollcallapplication\RollCall\RollCall\bin\Release\netcoreapp3.1\System.Runtime.Caching.dll
+C:\SoftDev\rollcallapplication\RollCall\RollCall\bin\Release\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
+C:\SoftDev\rollcallapplication\RollCall\RollCall\bin\Release\netcoreapp3.1\cs\Microsoft.CodeAnalysis.resources.dll
+C:\SoftDev\rollcallapplication\RollCall\RollCall\bin\Release\netcoreapp3.1\de\Microsoft.CodeAnalysis.resources.dll
+C:\SoftDev\rollcallapplication\RollCall\RollCall\bin\Release\netcoreapp3.1\es\Microsoft.CodeAnalysis.resources.dll
+C:\SoftDev\rollcallapplication\RollCall\RollCall\bin\Release\netcoreapp3.1\fr\Microsoft.CodeAnalysis.resources.dll
+C:\SoftDev\rollcallapplication\RollCall\RollCall\bin\Release\netcoreapp3.1\it\Microsoft.CodeAnalysis.resources.dll
+C:\SoftDev\rollcallapplication\RollCall\RollCall\bin\Release\netcoreapp3.1\ja\Microsoft.CodeAnalysis.resources.dll
+C:\SoftDev\rollcallapplication\RollCall\RollCall\bin\Release\netcoreapp3.1\ko\Microsoft.CodeAnalysis.resources.dll
+C:\SoftDev\rollcallapplication\RollCall\RollCall\bin\Release\netcoreapp3.1\pl\Microsoft.CodeAnalysis.resources.dll
+C:\SoftDev\rollcallapplication\RollCall\RollCall\bin\Release\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.resources.dll
+C:\SoftDev\rollcallapplication\RollCall\RollCall\bin\Release\netcoreapp3.1\ru\Microsoft.CodeAnalysis.resources.dll
+C:\SoftDev\rollcallapplication\RollCall\RollCall\bin\Release\netcoreapp3.1\tr\Microsoft.CodeAnalysis.resources.dll
+C:\SoftDev\rollcallapplication\RollCall\RollCall\bin\Release\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+C:\SoftDev\rollcallapplication\RollCall\RollCall\bin\Release\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+C:\SoftDev\rollcallapplication\RollCall\RollCall\bin\Release\netcoreapp3.1\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\SoftDev\rollcallapplication\RollCall\RollCall\bin\Release\netcoreapp3.1\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\SoftDev\rollcallapplication\RollCall\RollCall\bin\Release\netcoreapp3.1\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\SoftDev\rollcallapplication\RollCall\RollCall\bin\Release\netcoreapp3.1\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\SoftDev\rollcallapplication\RollCall\RollCall\bin\Release\netcoreapp3.1\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\SoftDev\rollcallapplication\RollCall\RollCall\bin\Release\netcoreapp3.1\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\SoftDev\rollcallapplication\RollCall\RollCall\bin\Release\netcoreapp3.1\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\SoftDev\rollcallapplication\RollCall\RollCall\bin\Release\netcoreapp3.1\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\SoftDev\rollcallapplication\RollCall\RollCall\bin\Release\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\SoftDev\rollcallapplication\RollCall\RollCall\bin\Release\netcoreapp3.1\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\SoftDev\rollcallapplication\RollCall\RollCall\bin\Release\netcoreapp3.1\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\SoftDev\rollcallapplication\RollCall\RollCall\bin\Release\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\SoftDev\rollcallapplication\RollCall\RollCall\bin\Release\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\SoftDev\rollcallapplication\RollCall\RollCall\bin\Release\netcoreapp3.1\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\SoftDev\rollcallapplication\RollCall\RollCall\bin\Release\netcoreapp3.1\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\SoftDev\rollcallapplication\RollCall\RollCall\bin\Release\netcoreapp3.1\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\SoftDev\rollcallapplication\RollCall\RollCall\bin\Release\netcoreapp3.1\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\SoftDev\rollcallapplication\RollCall\RollCall\bin\Release\netcoreapp3.1\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\SoftDev\rollcallapplication\RollCall\RollCall\bin\Release\netcoreapp3.1\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\SoftDev\rollcallapplication\RollCall\RollCall\bin\Release\netcoreapp3.1\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\SoftDev\rollcallapplication\RollCall\RollCall\bin\Release\netcoreapp3.1\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\SoftDev\rollcallapplication\RollCall\RollCall\bin\Release\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\SoftDev\rollcallapplication\RollCall\RollCall\bin\Release\netcoreapp3.1\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\SoftDev\rollcallapplication\RollCall\RollCall\bin\Release\netcoreapp3.1\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\SoftDev\rollcallapplication\RollCall\RollCall\bin\Release\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\SoftDev\rollcallapplication\RollCall\RollCall\bin\Release\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\SoftDev\rollcallapplication\RollCall\RollCall\bin\Release\netcoreapp3.1\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\SoftDev\rollcallapplication\RollCall\RollCall\bin\Release\netcoreapp3.1\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\SoftDev\rollcallapplication\RollCall\RollCall\bin\Release\netcoreapp3.1\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\SoftDev\rollcallapplication\RollCall\RollCall\bin\Release\netcoreapp3.1\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\SoftDev\rollcallapplication\RollCall\RollCall\bin\Release\netcoreapp3.1\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\SoftDev\rollcallapplication\RollCall\RollCall\bin\Release\netcoreapp3.1\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\SoftDev\rollcallapplication\RollCall\RollCall\bin\Release\netcoreapp3.1\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\SoftDev\rollcallapplication\RollCall\RollCall\bin\Release\netcoreapp3.1\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\SoftDev\rollcallapplication\RollCall\RollCall\bin\Release\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\SoftDev\rollcallapplication\RollCall\RollCall\bin\Release\netcoreapp3.1\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\SoftDev\rollcallapplication\RollCall\RollCall\bin\Release\netcoreapp3.1\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\SoftDev\rollcallapplication\RollCall\RollCall\bin\Release\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\SoftDev\rollcallapplication\RollCall\RollCall\bin\Release\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\SoftDev\rollcallapplication\RollCall\RollCall\bin\Release\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+C:\SoftDev\rollcallapplication\RollCall\RollCall\bin\Release\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+C:\SoftDev\rollcallapplication\RollCall\RollCall\bin\Release\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
+C:\SoftDev\rollcallapplication\RollCall\RollCall\bin\Release\netcoreapp3.1\runtimes\win-x64\native\sni.dll
+C:\SoftDev\rollcallapplication\RollCall\RollCall\bin\Release\netcoreapp3.1\runtimes\win-x86\native\sni.dll
+C:\SoftDev\rollcallapplication\RollCall\RollCall\bin\Release\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.0\System.Runtime.Caching.dll
+C:\SoftDev\rollcallapplication\RollCall\RollCall\bin\Release\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Runtime.Caching.dll
+C:\SoftDev\rollcallapplication\RollCall\RollCall\bin\Release\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\SoftDev\rollcallapplication\RollCall\RollCall\obj\Release\netcoreapp3.1\RollCall.csprojAssemblyReference.cache
+C:\SoftDev\rollcallapplication\RollCall\RollCall\obj\Release\netcoreapp3.1\staticwebassets\RollCall.StaticWebAssets.Manifest.cache
+C:\SoftDev\rollcallapplication\RollCall\RollCall\obj\Release\netcoreapp3.1\staticwebassets\RollCall.StaticWebAssets.xml
+C:\SoftDev\rollcallapplication\RollCall\RollCall\obj\Release\netcoreapp3.1\RollCall.MvcApplicationPartsAssemblyInfo.cache
+C:\SoftDev\rollcallapplication\RollCall\RollCall\obj\Release\netcoreapp3.1\RollCall.RazorAssemblyInfo.cache
+C:\SoftDev\rollcallapplication\RollCall\RollCall\obj\Release\netcoreapp3.1\RollCall.RazorAssemblyInfo.cs
+C:\SoftDev\rollcallapplication\RollCall\RollCall\obj\Release\netcoreapp3.1\RollCall.AssemblyInfoInputs.cache
+C:\SoftDev\rollcallapplication\RollCall\RollCall\obj\Release\netcoreapp3.1\RollCall.AssemblyInfo.cs
+C:\SoftDev\rollcallapplication\RollCall\RollCall\obj\Release\netcoreapp3.1\RollCall.TagHelpers.input.cache
+C:\SoftDev\rollcallapplication\RollCall\RollCall\obj\Release\netcoreapp3.1\RollCall.TagHelpers.output.cache
+C:\SoftDev\rollcallapplication\RollCall\RollCall\obj\Release\netcoreapp3.1\RollCall.RazorCoreGenerate.cache
+C:\SoftDev\rollcallapplication\RollCall\RollCall\obj\Release\netcoreapp3.1\Razor\Views\Home\Index.cshtml.g.cs
+C:\SoftDev\rollcallapplication\RollCall\RollCall\obj\Release\netcoreapp3.1\Razor\Views\Home\Privacy.cshtml.g.cs
+C:\SoftDev\rollcallapplication\RollCall\RollCall\obj\Release\netcoreapp3.1\Razor\Views\Shared\Error.cshtml.g.cs
+C:\SoftDev\rollcallapplication\RollCall\RollCall\obj\Release\netcoreapp3.1\Razor\Views\Shared\_Layout.cshtml.g.cs
+C:\SoftDev\rollcallapplication\RollCall\RollCall\obj\Release\netcoreapp3.1\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+C:\SoftDev\rollcallapplication\RollCall\RollCall\obj\Release\netcoreapp3.1\Razor\Views\_ViewImports.cshtml.g.cs
+C:\SoftDev\rollcallapplication\RollCall\RollCall\obj\Release\netcoreapp3.1\Razor\Views\_ViewStart.cshtml.g.cs
+C:\SoftDev\rollcallapplication\RollCall\RollCall\obj\Release\netcoreapp3.1\RollCall.RazorTargetAssemblyInfo.cache
+C:\SoftDev\rollcallapplication\RollCall\RollCall\obj\Release\netcoreapp3.1\RollCall.RazorTargetAssemblyInfo.cs
+C:\SoftDev\rollcallapplication\RollCall\RollCall\obj\Release\netcoreapp3.1\RollCall.Views.pdb
+C:\SoftDev\rollcallapplication\RollCall\RollCall\obj\Release\netcoreapp3.1\RollCall.csproj.CopyComplete
+C:\SoftDev\rollcallapplication\RollCall\RollCall\obj\Release\netcoreapp3.1\RollCall.dll
+C:\SoftDev\rollcallapplication\RollCall\RollCall\obj\Release\netcoreapp3.1\RollCall.pdb
+C:\SoftDev\rollcallapplication\RollCall\RollCall\bin\Release\netcoreapp3.1\Microsoft.DotNet.PlatformAbstractions.dll
+C:\SoftDev\rollcallapplication\RollCall\RollCall\bin\Release\netcoreapp3.1\Microsoft.Extensions.DependencyModel.dll
+C:\SoftDev\rollcallapplication\RollCall\RollCall\bin\Release\netcoreapp3.1\Microsoft.Extensions.PlatformAbstractions.dll
+C:\SoftDev\rollcallapplication\RollCall\RollCall\bin\Release\netcoreapp3.1\Nancy.dll
