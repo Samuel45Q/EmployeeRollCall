@@ -16,6 +16,18 @@ class Dashboard : BaseActivity() {
         setContentView(R.layout.activity_dashboard)
         setUpViews()
         setApplyLeaveOnClick()
+        toggleSetUp()
+    }
+
+    private fun toggleSetUp() {
+        toggleButton.setOnCheckedChangeListener { _, isChecked ->
+            if (isChecked) {
+                workStatus.text = getString(R.string.working_from_home)
+
+            } else {
+                workStatus.text = getString(R.string.working_in_the_office)
+            }
+        }
     }
 
     @SuppressLint("SetTextI18n")

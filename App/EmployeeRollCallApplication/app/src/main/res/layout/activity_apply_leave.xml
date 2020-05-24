@@ -12,13 +12,12 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
-        android:gravity=""
         android:text="Select Leave:"
         android:textSize="20sp"
+        android:layout_marginBottom="80dp"
         app:layout_constraintEnd_toEndOf="@id/guide_end"
-        app:layout_constraintHorizontal_bias="0.459"
         app:layout_constraintStart_toStartOf="@id/guide_start"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintBottom_toTopOf="@id/submitLeave" />
 
     <Spinner
         android:id="@+id/spinner"
@@ -101,8 +100,7 @@
         android:textAllCaps="false"
         android:textColor="@android:color/black"
         app:layout_constraintStart_toStartOf="@id/guide_start"
-        app:layout_constraintTop_toBottomOf="@id/start_date"
-        tools:text="Study Leave: 20 days" />
+        app:layout_constraintTop_toBottomOf="@id/start_date" />
 
     <androidx.constraintlayout.widget.Guideline
         android:id="@+id/guide_end"
