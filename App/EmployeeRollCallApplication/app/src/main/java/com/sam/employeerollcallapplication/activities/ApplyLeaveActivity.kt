@@ -21,8 +21,8 @@ class ApplyLeaveActivity : BaseActivity() {
     private var cal: Calendar = Calendar.getInstance()
     private val viewModels: ViewModels by lazy { getViewModel(ViewModels::class.java) }
 
-    lateinit var from: String
-    lateinit var to: String
+    private var from: String? = null
+    private var to: String? = null
     lateinit var leaveTpe: String
     var id by Delegates.notNull<Int>()
 
@@ -31,7 +31,6 @@ class ApplyLeaveActivity : BaseActivity() {
         super.onCreate(savedInstanceState)
         val sharedPreferences = getSharedPreferences("user", Context.MODE_PRIVATE)
         id = sharedPreferences.getInt("employeeId", 0)
-        setOnClickApplyLeave()
         setContentView(R.layout.activity_apply_leave)
         val leaves = resources.getStringArray(R.array.Leaves)
         if (spinner != null) {
@@ -92,27 +91,32 @@ class ApplyLeaveActivity : BaseActivity() {
                 cal.get(Calendar.DAY_OF_MONTH)
             ).show()
         }
+        setOnClickApplyLeave()
     }
 
     private fun updateStartDateInView() {
         val myFormat = "dd/MM/yyyy" // mention the format you need
-        val apiFormat = "yyyy-mm-ddThh:mm:ss" // mention the format you need
+        val apiFormat = "yyyy-MM-dd'T'HH:mm:ss.SS" // mention the format you need
         val sdf = SimpleDateFormat(myFormat, Locale.US)
-        from = apiFormat.format(cal.time)
+        val sdf2 = SimpleDateFormat(apiFormat, Locale.US)
+        from = sdf2.format(cal.time)
         start_date_text.text = sdf.format(cal.time)
     }
 
     private fun updateEndDateInView() {
         val myFormat = "dd/MM/yyyy" // mention the format you need
-        val apiFormat = "yyyy-mm-ddThh:mm:ss"
+        val apiFormat = "yyyy-MM-dd'T'HH:mm:ss.SS"
         val sdf = SimpleDateFormat(myFormat, Locale.US)
-        to = apiFormat.format(cal.time)
+        val sdf2 = SimpleDateFormat(apiFormat, Locale.US)
+        to = sdf2.format(cal.time)
         end_date_text.text = sdf.format(cal.time)
     }
 
     private fun setOnClickApplyLeave() {
         submitLeave.setOnClickListener {
-            var type: Int = 0
+            showProgressDialog("Leave application in progress....")
+
+            var type = 0
 
             if (leaveTpe == "Annual") {
                 type = 0
@@ -127,7 +131,7 @@ class ApplyLeaveActivity : BaseActivity() {
             } else if (leaveTpe == "Family Responsibility") {
                 type = 5
             }
-            setUpVieModel(from, to, type, TheUser(id = id))
+            from?.let { it1 -> to?.let { it2 -> setUpVieModel(it1, it2, type, TheUser(id = id)) } }
         }
     }
 
@@ -141,6 +145,7 @@ class ApplyLeaveActivity : BaseActivity() {
                     ResourceStatus.SUCCESS -> {
                         resource.data?.let {
                             if (it.status) {
+                                hideProgressDialog()
                                 startActivity(
                                     Intent(
                                         this@ApplyLeaveActivity,
@@ -151,6 +156,7 @@ class ApplyLeaveActivity : BaseActivity() {
                         }
                     }
                     ResourceStatus.ERROR -> {
+                        hideProgressDialog()
                         showErrorMessage("Failed to apply leave")
                     }
                     ResourceStatus.LOADING -> Unit
