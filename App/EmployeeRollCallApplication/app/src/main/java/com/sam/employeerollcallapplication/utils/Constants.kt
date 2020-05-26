@@ -2,7 +2,7 @@ package com.sam.employeerollcallapplication.utils
 
 object Constants {
 
-    const val BASE_URL = "http://roll.seanegoit.com"
+    const val API_BASE_URL = "http://roll.seanegoit.com"
     const val READ_TIMEOUT = 30L
     const val WRITE_TIMEOUT = 30L
     const val CONNECTION_TIMEOUT = 30L

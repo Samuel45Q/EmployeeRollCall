@@ -14,10 +14,11 @@
         android:theme="@style/AppTheme"
         android:usesCleartextTraffic="true"
         tools:targetApi="m">
-        <activity android:name="com.sam.employeerollcallapplication.activities.ApplyLeaveActivity"></activity>
-        <activity android:name="com.sam.employeerollcallapplication.activities.Dashboard" />
-        <activity android:name="com.sam.employeerollcallapplication.activities.SignUpActivity" />
-        <activity android:name="com.sam.employeerollcallapplication.activities.MainActivity">
+        <activity android:name=".activities.AdminDashboard"></activity>
+        <activity android:name=".activities.ApplyLeaveActivity" />
+        <activity android:name=".activities.Dashboard" />
+        <activity android:name=".activities.SignUpActivity" />
+        <activity android:name=".activities.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

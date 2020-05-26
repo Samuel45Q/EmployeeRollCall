@@ -257,6 +257,7 @@
         android:background="@drawable/textviewshape"
         android:ems="10"
         android:inputType="phone"
+        android:maxLength="10"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.439"

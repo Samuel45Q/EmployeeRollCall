@@ -23,6 +23,7 @@
     <string name="working_in_the_office">Today working in the office</string>
 
     <string name="selected_item">Selected item:</string>
+    <string name="requested_leaves">Requested Leaves:</string>
     <string-array name="Leaves">
         <item>Annual</item>
         <item>Sick</item>

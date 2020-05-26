@@ -7,10 +7,13 @@ import android.os.Bundle
 import android.view.View
 import android.widget.AdapterView
 import android.widget.ArrayAdapter
+import androidx.appcompat.app.AlertDialog
+import androidx.lifecycle.ViewModelProviders
 import com.sam.employeerollcallapplication.R
 import com.sam.employeerollcallapplication.models.TheUser
-import com.sam.employeerollcallapplication.utils.ResourceStatus
-import com.sam.employeerollcallapplication.viewmodels.ViewModels
+import com.sam.employeerollcallapplication.repository.ApplyLeaveRepositoryFactory
+import com.sam.employeerollcallapplication.viewmodels.ApplyLeaveCallRollViewModel
+import com.sam.employeerollcallapplication.viewmodels.ApplyLeaveViewModelFactory
 import kotlinx.android.synthetic.main.activity_apply_leave.*
 import java.text.SimpleDateFormat
 import java.util.*
@@ -19,7 +22,7 @@ import kotlin.properties.Delegates
 class ApplyLeaveActivity : BaseActivity() {
 
     private var cal: Calendar = Calendar.getInstance()
-    private val viewModels: ViewModels by lazy { getViewModel(ViewModels::class.java) }
+    private lateinit var applyLeaveCallRollViewModel: ApplyLeaveCallRollViewModel
 
     private var from: String? = null
     private var to: String? = null
@@ -29,6 +32,12 @@ class ApplyLeaveActivity : BaseActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+        applyLeaveCallRollViewModel =
+            ViewModelProviders.of(
+                this,
+                ApplyLeaveViewModelFactory(ApplyLeaveRepositoryFactory.createApplyLeaveRepository())
+            ).get(ApplyLeaveCallRollViewModel::class.java)
+
         val sharedPreferences = getSharedPreferences("user", Context.MODE_PRIVATE)
         id = sharedPreferences.getInt("employeeId", 0)
         setContentView(R.layout.activity_apply_leave)
@@ -131,7 +140,21 @@ class ApplyLeaveActivity : BaseActivity() {
             } else if (leaveTpe == "Family Responsibility") {
                 type = 5
             }
-            from?.let { it1 -> to?.let { it2 -> setUpVieModel(it1, it2, type, TheUser(id = id)) } }
+            if (from.isNullOrEmpty() || to.isNullOrEmpty()) {
+                hideProgressDialog()
+                showErrorMessage("Please select all leave days")
+            } else {
+                from?.let { it1 ->
+                    to?.let { it2 ->
+                        setUpVieModel(
+                            it1,
+                            it2,
+                            type,
+                            TheUser(id = id)
+                        )
+                    }
+                }
+            }
         }
     }
 
@@ -139,28 +162,35 @@ class ApplyLeaveActivity : BaseActivity() {
         fromLeave: String,
         toLeave: String, type: Int, user: TheUser
     ) {
-        viewModels.applyLeaveLive(fromLeave, toLeave, type, user)
-            ?.observe(this, androidx.lifecycle.Observer { resource ->
-                when (resource.status) {
-                    ResourceStatus.SUCCESS -> {
-                        resource.data?.let {
-                            if (it.status) {
-                                hideProgressDialog()
-                                startActivity(
-                                    Intent(
-                                        this@ApplyLeaveActivity,
-                                        Dashboard::class.java
-                                    )
-                                )
-                            }
-                        }
-                    }
-                    ResourceStatus.ERROR -> {
+        applyLeaveCallRollViewModel.applyLeaveRequest.removeObservers(this)
+        applyLeaveCallRollViewModel.applyLeaveRequest.observe(
+            this,
+            androidx.lifecycle.Observer { data ->
+
+                data.let {
+                    if (it.status) {
                         hideProgressDialog()
-                        showErrorMessage("Failed to apply leave")
+                        val builder = AlertDialog.Builder(this@ApplyLeaveActivity)
+                        builder.setTitle("Leave Application")
+                        builder.setMessage("Leave requested successfully")
+                        builder.setPositiveButton("OK") { _, _ ->
+                            navigate()
+                        }
+                        val dialog: AlertDialog = builder.create()
+                        dialog.show()
+                    } else {
+                        hideProgressDialog()
+                        showErrorMessage("Leave request failed")
                     }
-                    ResourceStatus.LOADING -> Unit
                 }
+
             })
+        applyLeaveCallRollViewModel.applyLeave(fromLeave, toLeave, type, user)
+    }
+
+    private fun navigate() {
+        startActivity(
+            Intent(this@ApplyLeaveActivity, Dashboard::class.java)
+        )
     }
 }

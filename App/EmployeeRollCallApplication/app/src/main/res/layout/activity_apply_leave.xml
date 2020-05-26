@@ -12,12 +12,12 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
+        android:layout_marginBottom="80dp"
         android:text="Select Leave:"
         android:textSize="20sp"
-        android:layout_marginBottom="80dp"
+        app:layout_constraintBottom_toTopOf="@id/submitLeave"
         app:layout_constraintEnd_toEndOf="@id/guide_end"
-        app:layout_constraintStart_toStartOf="@id/guide_start"
-        app:layout_constraintBottom_toTopOf="@id/submitLeave" />
+        app:layout_constraintStart_toStartOf="@id/guide_start" />
 
     <Spinner
         android:id="@+id/spinner"
@@ -27,8 +27,7 @@
         app:layout_constraintEnd_toEndOf="@id/guide_end"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="@id/guide_start"
-        app:layout_constraintTop_toBottomOf="@id/spinnerText"
-   />
+        app:layout_constraintTop_toBottomOf="@id/spinnerText" />
 
     <Button
         android:id="@+id/start_date"

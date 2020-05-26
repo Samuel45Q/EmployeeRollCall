@@ -5,6 +5,7 @@ import com.sam.employeerollcallapplication.models.ApplyLeaveResponse
 import com.sam.employeerollcallapplication.models.ApproveLeaveRequest
 
 import io.reactivex.Observable
+import io.reactivex.Single
 import retrofit2.Response
 import retrofit2.http.Body
 import retrofit2.http.POST
@@ -12,6 +13,6 @@ import retrofit2.http.POST
 interface ApplyLeaveService {
 
     @POST("/api/Leave/Apply")
-    fun applyLeave(@Body applyLeaveRequest: ApplyLeaveRequest): Observable<Response<ApplyLeaveResponse>>
+    fun applyLeave(@Body applyLeaveRequest: ApplyLeaveRequest): Single<Response<ApplyLeaveResponse>>
     fun approveLeave(@Body approveLeave: ApproveLeaveRequest): Observable<Response<ApplyLeaveResponse>>
 }

@@ -3,6 +3,7 @@ package com.sam.employeerollcallapplication.activities
 import android.annotation.SuppressLint
 import android.content.Context
 import android.content.Intent
+import android.os.Build
 import android.os.Bundle
 import com.sam.employeerollcallapplication.R
 import kotlinx.android.synthetic.main.activity_dashboard.*
@@ -52,16 +53,7 @@ class Dashboard : BaseActivity() {
     }
 
     private fun navigateToActivity() {
-//        val fragmentManager: FragmentManager = supportFragmentManager
-//        fragmentManager.apply {
-//            fragments.filterIsInstance<ApplyLeaveFragment>().firstOrNull()?.let {
-//                beginTransaction().remove(it).commit()
-//            }
-//            beginTransaction().add(android.R.id.content, ApplyLeaveFragment()).commit()
-//        }
-
         startActivity(Intent(this@Dashboard, ApplyLeaveActivity::class.java))
-
     }
 
     private fun getGreetingMessage(name: String): String {
@@ -76,8 +68,14 @@ class Dashboard : BaseActivity() {
     }
 
     override fun onBackPressed() {
-        super.onBackPressed()
         hideProgressDialog()
-        this.finish()
+        getSharedPreferences("user", MODE_PRIVATE)
+            .edit()
+            .clear()
+            .apply()
+
+        val intent = Intent(this, MainActivity::class.java)
+        startActivity(intent)
+        finishAffinity()
     }
 }

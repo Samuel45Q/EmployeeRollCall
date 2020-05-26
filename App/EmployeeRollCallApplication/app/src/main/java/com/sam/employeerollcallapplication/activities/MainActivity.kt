@@ -3,26 +3,31 @@ package com.sam.employeerollcallapplication.activities
 import android.content.Context
 import android.content.Intent
 import android.os.Bundle
-import androidx.lifecycle.LiveData
 import androidx.lifecycle.Observer
+import androidx.lifecycle.ViewModelProviders
 import com.sam.employeerollcallapplication.R
-import com.sam.employeerollcallapplication.models.LoginResponse
-import com.sam.employeerollcallapplication.utils.DialogUtil
-import com.sam.employeerollcallapplication.utils.Resource
-import com.sam.employeerollcallapplication.utils.ResourceStatus
-import com.sam.employeerollcallapplication.viewmodels.ViewModels
+import com.sam.employeerollcallapplication.repository.LoginRepositoryFactory
+import com.sam.employeerollcallapplication.viewmodels.LoginCallRollViewModel
+import com.sam.employeerollcallapplication.viewmodels.LoginViewModelFactory
 import kotlinx.android.synthetic.main.activity_main.*
+import kotlinx.android.synthetic.main.activity_main.btnSignup
+import kotlinx.android.synthetic.main.activity_sign_up.*
 
 
 class MainActivity : BaseActivity() {
 
-    private val viewModels: ViewModels by lazy { getViewModel(ViewModels::class.java) }
-    private var loginLiveData: LiveData<Resource<LoginResponse>>? = null
-
+    private lateinit var mainActivityViewModel: LoginCallRollViewModel
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
+
+        mainActivityViewModel =
+            ViewModelProviders.of(
+                    this,
+                    LoginViewModelFactory(LoginRepositoryFactory.createLoginRepository())
+                )
+                .get(LoginCallRollViewModel::class.java)
         setSignUpOnClick()
         setLoginOnClick()
     }
@@ -37,10 +42,8 @@ class MainActivity : BaseActivity() {
         btnClickLogin.setOnClickListener {
             val emailText = username.text.toString()
             val textUsername = userPassword.text.toString()
-            removeObservers(emailText, textUsername)
             showProgressDialog("Logging in....")
             if (emailText.isEmpty() || textUsername.isEmpty()) {
-                showErrorMessage("Failed to login")
                 showErrorMessage("Username/Password cannot be empty")
             } else {
                 setupViewModel(emailText, textUsername)
@@ -48,56 +51,37 @@ class MainActivity : BaseActivity() {
         }
     }
 
-    private fun setupViewModel(username: String, password: String) {
-        removeObservers(username, password)
-        loginLiveData = viewModels.loginRequestLiveData(username, password)
-        loginLiveData?.observe(this, Observer { resource ->
-            when (resource.status) {
-                ResourceStatus.SUCCESS -> {
-                    resource.data?.user.let {
-                        if (it!!.status) {
-                            hideProgressDialog()
-                            val sharedPreferences =
-                                getSharedPreferences("user", Context.MODE_PRIVATE)
-                            sharedPreferences.edit().apply {
-                                putString("userName", "${it.firstName} ${it.lastName}")
-                                putInt("employeeId", it.id)
-                                putString("role", it.role)
-                                putInt("annualLeave", it.leaveBalance.annual)
-                                putInt("sickLeave", it.leaveBalance.sick)
-                                putInt("studyLeave", it.leaveBalance.study)
-                                putInt("maternityLeave", it.leaveBalance.maternity)
-                            }.apply()
-                            startActivity(Intent(this@MainActivity, Dashboard::class.java))
-                        }
-                    }
-                }
-                ResourceStatus.ERROR -> {
-                    if (loginLiveData!!.hasObservers()) {
-                        loginLiveData!!.removeObservers(this)
-                    }
+    private fun setupViewModel(userName: String, password1: String) {
+        mainActivityViewModel.loginRequest.removeObservers(this)
+        mainActivityViewModel.loginRequest.observe(this, Observer { data ->
+            data?.user?.let { user ->
+                if (user.status) {
                     hideProgressDialog()
-                    showErrorMessage("Failed to login")
+                    if (user.role != null && (user.role == "Admin" || user.role == "admin")) {
+                        startActivity(Intent(this@MainActivity, AdminDashboard::class.java))
+                    } else {
+                        val sharedPreferences =
+                            getSharedPreferences("user", Context.MODE_PRIVATE)
+                        sharedPreferences.edit().apply {
+                            putString("userName", "${user.firstName} ${user.lastName}")
+                            putInt("employeeId", user.id)
+                            putString("role", user.role)
+                            putInt("annualLeave", user.leaveBalance.annual)
+                            putInt("sickLeave", user.leaveBalance.sick)
+                            putInt("studyLeave", user.leaveBalance.study)
+                            putInt("maternityLeave", user.leaveBalance.maternity)
+                        }.apply()
+                        startActivity(Intent(this@MainActivity, Dashboard::class.java))
+                    }
+
+                } else {
+                    hideProgressDialog()
+                    showErrorMessage(user.message)
                 }
-                ResourceStatus.LOADING -> Unit
-            }
+            } ?: showErrorMessage("Invalid Username/Password")
+
         })
-    }
-
-    private fun removeObservers(userName: String, password: String) {
-        val observable: LiveData<Resource<LoginResponse>> =
-            viewModels.loginRequestLiveData(userName, password)!!
-        if (observable.hasObservers()
-        ) {
-            hideProgressDialog()
-            observable.removeObservers(this)
-        }
-    }
-
-    override fun onBackPressed() {
-        super.onBackPressed()
-        hideProgressDialog()
-        this.finish()
+        mainActivityViewModel.login(userName, password1)
     }
 }
 
