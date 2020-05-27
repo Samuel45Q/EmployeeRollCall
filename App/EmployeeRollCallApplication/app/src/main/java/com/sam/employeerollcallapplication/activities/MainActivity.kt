@@ -5,6 +5,7 @@ import android.content.Intent
 import android.os.Bundle
 import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProviders
+import com.google.gson.Gson
 import com.sam.employeerollcallapplication.R
 import com.sam.employeerollcallapplication.repository.LoginRepositoryFactory
 import com.sam.employeerollcallapplication.viewmodels.LoginCallRollViewModel
@@ -53,15 +54,19 @@ class MainActivity : BaseActivity() {
 
     private fun setupViewModel(userName: String, password1: String) {
         mainActivityViewModel.loginRequest.removeObservers(this)
+        val sharedPreferences =
+            getSharedPreferences("user", Context.MODE_PRIVATE)
         mainActivityViewModel.loginRequest.observe(this, Observer { data ->
             data?.user?.let { user ->
                 if (user.status) {
                     hideProgressDialog()
                     if (user.role != null && (user.role == "Admin" || user.role == "admin")) {
+                        sharedPreferences.edit().apply {
+                            putString("leavesRequested", Gson().toJson(data.user))
+                        }.apply()
                         startActivity(Intent(this@MainActivity, AdminDashboard::class.java))
                     } else {
-                        val sharedPreferences =
-                            getSharedPreferences("user", Context.MODE_PRIVATE)
+
                         sharedPreferences.edit().apply {
                             putString("userName", "${user.firstName} ${user.lastName}")
                             putInt("employeeId", user.id)
