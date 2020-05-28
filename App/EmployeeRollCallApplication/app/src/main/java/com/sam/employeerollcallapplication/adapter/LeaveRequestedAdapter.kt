@@ -13,6 +13,7 @@ import com.sam.employeerollcallapplication.activities.AdminDashboard
 import com.sam.employeerollcallapplication.models.RequestedLeave
 import com.sam.employeerollcallapplication.repository.ApproveLeaveRepositoryFactory
 import com.sam.employeerollcallapplication.utils.DialogUtil
+import com.sam.employeerollcallapplication.utils.EmployeeRollLoadingDialog
 import com.sam.employeerollcallapplication.viewmodels.*
 
 
@@ -46,6 +47,9 @@ class RequestedLeaveViewHolder(
     private var declineButton: Button? = null
     private var confirmButton: Button? = null
 
+    private var progressDialog: EmployeeRollLoadingDialog =
+        EmployeeRollLoadingDialog(adminDashboard)
+
     private var approveLeaveCallRollViewModel: ApproveLeaveCallRollViewModel =
         ViewModelProviders.of(
                 adminDashboard,
@@ -66,6 +70,7 @@ class RequestedLeaveViewHolder(
         mNumberOfDays?.text = "Requested Days: " + requestedLeave.numberOfDays.toString()
 
         confirmButton?.setOnClickListener {
+            progressDialog.show("Approving leave request in progress pleas ait...")
             val builder = AlertDialog.Builder(itemView.context)
             builder.setTitle("Confirmation")
             builder.setMessage("Are you sure you want to approve this leave?")
@@ -76,12 +81,14 @@ class RequestedLeaveViewHolder(
                     Observer { data ->
                         data.let {
                             if (it.status) {
+                                progressDialog.hide()
                                 DialogUtil.showDialog(
                                     itemView.context,
                                     message = it.message,
                                     positiveButton = R.string.ok
                                 )
                             } else {
+                                progressDialog.hide()
                                 DialogUtil.showDialog(
                                     itemView.context,
                                     message = it.message,
@@ -97,6 +104,7 @@ class RequestedLeaveViewHolder(
         }
 
         declineButton?.setOnClickListener {
+            progressDialog.show("Declining leave request in progress pleas ait...")
             val builder = AlertDialog.Builder(itemView.context)
             builder.setTitle("Confirmation")
             builder.setMessage("Are you sure you want to decline this leave?")
@@ -107,12 +115,14 @@ class RequestedLeaveViewHolder(
                     Observer { data ->
                         data.let {
                             if (it.status) {
+                                progressDialog.hide()
                                 DialogUtil.showDialog(
                                     itemView.context,
                                     message = it.message,
                                     positiveButton = R.string.ok
                                 )
                             } else {
+                                progressDialog.hide()
                                 DialogUtil.showDialog(
                                     itemView.context,
                                     message = it.message,
