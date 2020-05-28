@@ -25,7 +25,7 @@ class AdminDashboard : BaseActivity() {
 
         requestedLeavesList.apply {
             layoutManager = LinearLayoutManager(this@AdminDashboard)
-            adapter = user.requestedLeave?.let { ListAdapter(it) }
+            adapter = user.requestedLeave?.let { ListAdapter(it, this@AdminDashboard) }
         }
     }
 

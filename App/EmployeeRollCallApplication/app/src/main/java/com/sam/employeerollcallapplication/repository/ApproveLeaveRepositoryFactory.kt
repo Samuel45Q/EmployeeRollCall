@@ -5,7 +5,7 @@ import com.sam.employeerollcallapplication.services.ApplyLeaveService
 
 object ApproveLeaveRepositoryFactory {
 
-    fun createLoginRepository(): ApproveLeaveCallRollRepository {
+    fun createApproveLeaveRepository(): ApproveLeaveCallRollRepository {
         val applyLeaveService =
             GateWayNetworkServices.instance.retrofit.create(ApplyLeaveService::class.java)
         return ApproveLeaveCallRollRepository(applyLeaveService)

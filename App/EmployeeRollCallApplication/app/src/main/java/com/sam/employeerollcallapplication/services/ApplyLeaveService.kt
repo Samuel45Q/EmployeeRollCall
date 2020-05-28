@@ -14,5 +14,7 @@ interface ApplyLeaveService {
 
     @POST("/api/Leave/Apply")
     fun applyLeave(@Body applyLeaveRequest: ApplyLeaveRequest): Single<Response<ApplyLeaveResponse>>
+
+    @POST("/api/Leave/Approve")
     fun approveLeave(@Body approveLeave: ApproveLeaveRequest): Single<Response<ApproveLeaveResponse>>
 }
