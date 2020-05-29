@@ -1,6 +1,5 @@
 package com.sam.employeerollcallapplication.login
 
-import android.content.Intent
 import androidx.test.rule.ActivityTestRule
 import com.mauriciotogneri.greencoffee.GreenCoffeeTest
 import com.mauriciotogneri.greencoffee.ScenarioConfig

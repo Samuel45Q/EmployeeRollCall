@@ -3,30 +3,82 @@ package com.sam.employeerollcallapplication.activities
 import android.annotation.SuppressLint
 import android.content.Context
 import android.content.Intent
-import android.os.Build
 import android.os.Bundle
+import androidx.lifecycle.ViewModelProviders
 import com.sam.employeerollcallapplication.R
+import com.sam.employeerollcallapplication.models.TheWorkUser
+import com.sam.employeerollcallapplication.repository.ClockInAndOutRemotelyRepositoryFactory
+import com.sam.employeerollcallapplication.viewmodels.ClockInAndOutViewModel
+import com.sam.employeerollcallapplication.viewmodels.ClockInAndOutViewModelFactory
 import kotlinx.android.synthetic.main.activity_dashboard.*
 import java.util.*
 
 
 class Dashboard : BaseActivity() {
 
+    private lateinit var clockInAndOutViewModel: ClockInAndOutViewModel
+
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_dashboard)
+
+        clockInAndOutViewModel =
+            ViewModelProviders.of(
+                    this,
+                    ClockInAndOutViewModelFactory(ClockInAndOutRemotelyRepositoryFactory.createClockInAndOutRepository())
+                )
+                .get(ClockInAndOutViewModel::class.java)
+
         setUpViews()
         setApplyLeaveOnClick()
         toggleSetUp()
     }
 
     private fun toggleSetUp() {
+        val sharedPreferences = getSharedPreferences("user", Context.MODE_PRIVATE)
         toggleButton.setOnCheckedChangeListener { _, isChecked ->
             if (isChecked) {
-                workStatus.text = getString(R.string.working_from_home)
+                showProgressDialog("Clocking in please wait...")
+                workStatus.text = getString(R.string.clocked_in_remotely)
+                clockInAndOutViewModel.clockInAndOutResponse.observe(
+                    this,
+                    androidx.lifecycle.Observer { data ->
+                        data.let {
+                            if (data.status) {
+                                hideProgressDialog()
+                                showErrorMessage(data.message)
+                            } else {
+                                hideProgressDialog()
+                                showErrorMessage(data.message)
+                            }
+                        }
+                    })
+                clockInAndOutViewModel.clockInAndOut(
+                    0,
+                    TheWorkUser(sharedPreferences.getInt("employeeId", 0))
+                )
 
             } else {
-                workStatus.text = getString(R.string.working_in_the_office)
+                showProgressDialog("Clocking out please wait...")
+                workStatus.text = getString(R.string.clocked_out)
+                clockInAndOutViewModel.clockInAndOutResponse.observe(
+                    this,
+                    androidx.lifecycle.Observer { data ->
+                        data.let {
+                            if (data.status) {
+                                hideProgressDialog()
+                                showErrorMessage(data.message)
+                            } else {
+                                hideProgressDialog()
+                                showErrorMessage(data.message)
+                            }
+                        }
+                    })
+                clockInAndOutViewModel.clockInAndOut(
+                    1,
+                    TheWorkUser(sharedPreferences.getInt("employeeId", 0))
+                )
             }
         }
     }
