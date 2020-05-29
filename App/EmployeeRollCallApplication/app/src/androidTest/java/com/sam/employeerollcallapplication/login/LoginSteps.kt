@@ -7,5 +7,5 @@ import com.sam.employeerollcallapplication.UserTestData
 class LoginSteps : GreenCoffeeSteps() {
 
     @When("I enter a valid username and password")
-    fun login() = LoginScreen.login(UserTestData.username, UserTestData.password)
+    fun login() = LoginScreen.login(UserTestData.username, UserTestData.userPassword)
 }
